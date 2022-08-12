@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdgeLine Comic - Sua loja de quadrinhos</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../assets/icons/logotxt.webp" type="image/x-icon">
+</head>
+
+<body>
+    <div class="discount-alert">
+        <h5>FRETE <span>GRÁTIS</span> A PARTIR DE <span>R$ 149,00</span></h5>
+        <i class="ph-truck-bold" style="color:red; font-size: 1.2rem;"></i>
+    </div>
+    <header>
+        <a href="../index.html" class="logo-link">
+            <img src="../assets/images/logo1.png" class="logo" draggable="false" loading="lazy" alt="EdgeLine Logo">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li class="nav-item nav-item-active">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Sobre a equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Suporte</a>
+                </li>
+    </header>
+
+    <section>
+        <div id="first-section">
+            <div>
+                <h1>A melhor loja de quadrinhos da América Latina!</h1>
+                <p>Agora na palma da sua mão.</p>
+            </div>
+            <div>
+                <button class="browse-btn">
+                    <a href="../pages/products.html"><p>NAVEGUE AGORA</p></a>
+                    <i class="ph-arrow-right" style="color: #fff; font-size: 1.5rem; background: #5834a7; padding: 5px; border-radius: 5px;"></i>   
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="second-section">
+            <div>
+                <h2 class="title-second-section">Quadrinhos em
+                    <spam style="color: #7653c2;">destaque</spam>
+                </h2>
+            </div>
+            <div class="emphasis-div">
+                <div class="flash-div" onmouseover="hoverOnBtn()" onmouseleave="hoverLeaveBtn()">
+                    <h3>Flash Edição 5</h3>
+                    <img src="assets/img-products/flash-ed5.png" class="emphasis-img" alt="" draggable="false">
+                    <button id="btn-buy-emphasis">R$78,90</button>
+                </div>
+                <div class="spiderman-div" onmouseover="hoverOnBtn2()" onmouseleave="hoverLeaveBtn2()">
+                    <h3>Spider-Man Edição 1</h3>
+                    <img src="assets/img-products/spiderman-ed1.png" class="emphasis-img" alt="" draggable="false">
+                    <button id="btn-buy-emphasis2">R$349,90</button>
+                </div>
+                <div class="theboys-div" onmouseover="hoverOnBtn3()" onmouseleave="hoverLeaveBtn3()">
+                    <h3>The Boys - Name of The Game</h3>
+                    <img src="assets/img-products/theboys-nameofgame.png" class="emphasis-img" alt="" draggable="false">
+                    <button id="btn-buy-emphasis3">R$83,99</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="./assets/icons/wave.svg" alt="">
+    <section>
+        <div id="contact">
+            <h2>Entre em contato</h2>
+            <div class="form-div">
+                <form action="#contact">
+                    <label for="">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Nome completo" class="field" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Seu melhor email" class="field" autocomplete="on" required>
+                    <textarea name="message" placeholder="Digite sua mensagem" class="field txtarea" cols="30 " rows="10 "></textarea>
+                    <input type="submit" value="Enviar mensagem" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <svg onclick="topFunction()" id="myBtn" class="svg-icon" viewBox="0 0 20 20">
+            <path d="M13.889,11.611c-0.17,0.17-0.443,0.17-0.512,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10" fill="#4f2e96"></path>
+        </svg>
+        <div class="footer-list">
+            <div>
+                <img src="./assets/images/logo1.png" class="logo-footer" alt="">
+            </div>
+            <div class="footer-list-item">
+                <p class="footer-item-label">Produtos</p>
+                <ul>
+                    <li class="footer-item">Qualidade do Produto</li>
+                    <li class="footer-item">Nossos Produtos</li>
+                    <li class="footer-item">Rastreamento de Produto</li>
+                </ul>
+            </div>
+            <div class="footer-list-item">
+                <p class="footer-item-label">Segurança</p>
+                <ul>
+                    <li class="footer-item">Sobre a empresa</li>
+                    <li class="footer-item">Como comprar com segurança</li>
+                    <li class="footer-item">Precisa de ajuda?</li>
+                </ul>
+            </div>
+            <div class="footer-list-item">
+                <p class="footer-item-label">Privacidade</p>
+                <ul>
+                    <li class="footer-item">Termos de Serviços</li>
+                    <li class="footer-item">LGPD</li>
+                    <li class="footer-item">Inteligência Artificial</li>
+                    <li class="footer-item">Certificado de Privacidade</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <script>
+            document.write('&copy;');
+            document.write(' 2021 - ');
+            document.write(new Date().getFullYear());
+            document.write('  - Giovanni Lopes - Todos os direitos reservados.');
+            document.write('<br/>Última alteração : ');
+            document.write(document.lastModified);
+        </script>
+    </div>
+    <script src="../script.js"></script>
+    <script src="https://unpkg.com/phosphor-icons "></script>
+</body>
+
+</html>
