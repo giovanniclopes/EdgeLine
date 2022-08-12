@@ -432,7 +432,7 @@ form label {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../assets/images/BG2emphasis.jpg");
+    background: url("assets/images/BG2emphasis.jpg");
     margin: 0 0 50px 0;
     width: 100%;
     height: 80px;
