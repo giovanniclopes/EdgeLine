@@ -196,7 +196,7 @@ header {
     justify-content: center;
     text-align: center;
     height: 85vh;
-    background: url("/assets/images/BGsection1.png") no-repeat;
+    background: url("../assets/images/BGsection1.png") no-repeat;
     background-size: cover;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
