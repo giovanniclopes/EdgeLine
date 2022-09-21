@@ -31,7 +31,7 @@
                     <a href="">Categorias</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">Sobre a equipe</a>
+                    <a href="/pages/about.html">Sobre a equipe</a>
                 </li>
                 <li class="nav-item">
                     <a href="">Suporte</a>
@@ -87,7 +87,7 @@
         <div id="contact">
             <h2>Entre em contato</h2>
             <div class="form-div">
-                <form action="#contact">
+                <form action="https://formsubmit.co/giovanniclopes@gmail.com" method="post">
                     <label for="">Nome</label>
                     <input type="text" id="name" name="name" placeholder="Nome completo" class="field"
                         oninvalid="this.setCustomValidity('Coloque um nome válido, contendo somente letras')"
@@ -102,6 +102,7 @@
                         oninvalid="this.setCustomValidity('Escreva sua mensagem, por gentileza')"
                         oninput="setCustomValidity('')" cols="30 " rows="10 "></textarea>
                     <input type="submit" value="Enviar mensagem" class="btn-submit">
+                    <input type="hidden" name="_template" value="table">
                 </form>
             </div>
         </div>
@@ -145,12 +146,21 @@
     </footer>
     <div class="copyright">
         <script>
+            var getTime = new Date(document.lastModified);
+            var hour = getTime.getHours();
+            var minutes = getTime.getMinutes();
+            var seconds = getTime.getSeconds();
+            var day = getTime.getDay();
+            var month = getTime.getMonth();
+            var year = getTime.getFullYear();
+
             document.write('&copy;');
             document.write(' 2021 - ');
             document.write(new Date().getFullYear());
             document.write('  - Giovanni Lopes - Todos os direitos reservados.');
-            document.write('<br/>Última alteração : ');
-            document.write(document.lastModified);
+            document.write('<br>');
+            document.write('<br/>Última alteração: ' + hour + ':' + minutes + ':' + seconds + ' | ' + day + '/' +
+                month + '/' + year);
         </script>
     </div>
     <script src="script.js"></script>
