@@ -505,6 +505,11 @@ footer {
     list-style: none;
 }
 
+.footer-list-item a {
+    all: unset;
+    cursor: pointer;
+}
+
 .footer-list-item li {
     font: var(--_regularFont);
 }
