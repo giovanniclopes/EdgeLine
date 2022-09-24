@@ -87,7 +87,7 @@
         <div id="contact">
             <h2>Entre em contato</h2>
             <div class="form-div">
-                <form action="#contact">
+                <form action="https://formsubmit.co/giovanniclopes@gmail.com" method="post">
                     <label for="">Nome</label>
                     <input type="text" id="name" name="name" placeholder="Nome completo" class="field"
                         oninvalid="this.setCustomValidity('Coloque um nome válido, contendo somente letras')"
@@ -102,6 +102,7 @@
                         oninvalid="this.setCustomValidity('Escreva sua mensagem, por gentileza')"
                         oninput="setCustomValidity('')" cols="30 " rows="10 "></textarea>
                     <input type="submit" value="Enviar mensagem" class="btn-submit">
+                    <input type="hidden" name="_template" value="table">
                 </form>
             </div>
         </div>
@@ -165,17 +166,10 @@
     </footer>
     <div class="copyright">
         <script>
-            let time = new Date(document.lastModified);
-            let hours = time.getHours();
-            let minutes = time.getMinutes();
-            let seconds = time.getSeconds();
-            let year = time.getFullYear();
-
             document.write('&copy;');
             document.write(`2021 - `);
             document.write(new Date().getFullYear());
-            document.write('  - Giovanni Lopes - Todos os direitos reservados.');
-            document.write(`<br/>Última alteração em ${hours}:${minutes}:${seconds}`);
+            document.write('  - Giovanni Lopes - Todos os direitos reservados.')
         </script>
     </div>
     <script src="script.js"></script>
