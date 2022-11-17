@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Josefin+Sans:ital,wght@1,300&display=swap");
+
+:root {
+    --chinese-black: #141318;
+    --eerie-black: #17161b;
+    --charleston-green: #2a2a2c;
+    --black-olive: #3b3b3d;
+    --plump-purple: #633bbc;
+    --plump-purple-hover: #4f2e96;
+    --spanish-violet: #432371ff;
+    --razzmic-berry: #714674ff;
+    --rose-dust: #9f6976ff;
+    --middle-red: #cc8b79ff;
+    --macaroni-and-cheese: #faae7bff;
+    --platinum: #e1e1e6;
+    --sonic-silver: #737380;
+    --_mainFont: "Roboto", sans-serif;
+    --_regularFont: 400 1rem "Roboto", sans-serif;
+    --_mediumFont: 500 1rem "Roboto", sans-serif;
+    --_boldFont: 900 1rem "Roboto", sans-serif;
+}
+
+
 html {
     overflow-y: scroll;
     scroll-behavior: smooth;
